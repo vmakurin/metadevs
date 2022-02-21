@@ -11,12 +11,13 @@ public class Task2_4 {
         int value2 = scan.nextInt();
         boolean statement1 = value1 > value2;
         boolean statement2 = value1 < value2;
+
         if (statement1) {
             System.out.println("Первое введённое число больше второго");
         }
         if (statement2) {
             System.out.println("Первое введённое число меньше второго");
-        } else if (value1 == value2) {
+        } else {
             System.out.println("Числа равны");
         }
     }
