@@ -10,7 +10,6 @@ public class LiveCoding {
         System.out.println("Введите второе число");
         double value2 = scanInt(scan);
         gettingOperationsSwitch(value1, value2);
-        //gettingOperationsIfElse(value1, value2);
         // Вызвать нужный метод - gettingOperationsSwitch(value1, value2); / gettingOperationsIfElse(value1, value2);. Работает одинаково.
     }
 
