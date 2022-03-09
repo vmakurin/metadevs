@@ -2,7 +2,7 @@ package com.metadevs.Task3;
 
 public class Task3_1 {
     public static void main(String[] args) {
-        String[] months = {"Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Нояюрь", "Декабрь"};
+        String[] months = {"Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"};
         int randomMonth = (int) (Math.random() * months.length);
         String stringMonth = months[randomMonth];
         System.out.println(stringMonth);
