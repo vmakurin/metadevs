@@ -1,8 +1,8 @@
-package com.metadevs.Person;
+package vmakurin;
 
 import java.util.ArrayList;
 
-public class Company {
+public class Company implements IdealCompany {
     private String name;
     private ArrayList <Person> persons;
 

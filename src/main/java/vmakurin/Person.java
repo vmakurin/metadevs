@@ -1,6 +1,6 @@
-package com.metadevs.Person;
+package vmakurin;
 
-public class Person {
+public class Person implements Worker {
     private String name;
     private int age;
     private int salary;
@@ -48,5 +48,26 @@ public class Person {
         boolean statement = salary >= age;
         System.out.println(statement);
         return statement;
+    }
+
+    @Override
+    public void coolerTalk() {
+        System.out.println("Сплетница галимая");
+    }
+
+    @Override
+    public void smoking() {
+        System.out.println("Курильчик беспонтовка");
+    }
+
+    @Override
+    public void toGetVacation() {
+        System.out.println("Уехал в отпуск");
+    }
+
+    @Override
+    public void toGetLunch() {
+        System.out.println("Баклажаны ест");
+
     }
 }

@@ -1,4 +1,4 @@
-package com.metadevs.Person;
+package vmakurin;
 
 public class ControlPanel {
     public static void main(String[] args) {
